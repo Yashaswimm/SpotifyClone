@@ -1,0 +1,132 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+   font-family:'Ubuntu';
+
+}
+nav ul {
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    height:65px;
+    background-color:black;
+    color:white;
+}
+
+nav ul li{
+    padding:0 12px;
+}
+
+.brand img{
+    width:44px;
+    padding:8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+}
+
+.container{
+min-height:76vh;
+background-color:black;
+color:white;
+margin:0 auto;
+width:75%;
+border-radius: 12px;
+position: relative;
+top:8px;
+background-image:url('E:/spotify-clone/bg111.jpg');
+background-repeat:no-repeat;
+background-position: right;
+padding:15px;
+font-family:'Ubuntu';
+
+}
+
+
+.bottom{
+    position:absolute;
+    height:70px;
+    width:100%;
+    margin-top:20px;
+    bottom:0;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+   
+}
+
+.icons i{
+    color:white;
+    padding:0 10px;
+}
+
+#myProgessBar{
+    width:75%;
+    cursor:pointer;
+}
+
+.heading{
+    margin-bottom:50px;
+}
+.songItem{
+    height:50px;
+    display:flex;
+    background-color:white;
+    width:35%;
+    color:black;
+    margin:12px 0;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+}
+
+.songItem img{
+    border-radius: 50px;
+    width:43px;
+    margin:0 23px;
+    
+}
+
+.timestamp{
+    margin:0 23px;
+}   
+
+.timestamp i{
+    cursor: pointer;
+    padding-left:7px;
+
+}
+
+.songInfo img {
+    position: absolute;
+    left:200px;
+    top:25px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    
+}
+
+.currentSong{
+    color:aliceblue;
+    position:absolute;
+    left:280px;
+    top:25px;
+}
+
+#masterplay{
+    padding-top:5px;
+}
